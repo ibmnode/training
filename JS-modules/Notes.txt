@@ -1,0 +1,54 @@
+
+
+
+till ES5
+
+--> .js-lang in not module based programming lang .
+
+
+js-programming without module standards
+
+
+ --> global naming collisions
+       soln:  using self-executable functions
+ --> dependency module loading hierarchy is manual      
+
+
+
+
+ solns : using Module standards
+
+
+    third-party standards
+
+     -> AMD ( Async Module Definition )
+     -> commonJS ( our fucus )  ==> Node's default module standard
+     -> SystemJS 
+     -> UMD
+
+    ECMAScript standard 
+
+    --> ES6 Modules 
+
+-------------------------------------------------------------
+
+    commonJS standard
+    -------------------
+
+
+    --> every .js file is a module by default
+    --> all the variable/func in a .js-file are private to that module
+    --> to abstract/export any member(s) to other modules , use "module.exports"
+    --> to import any member(s) from other module , use "require("module-id")
+    --> can group related modules into package with entry module ( index.js)
+    --> a package can have description file  ( package.json )
+
+
+
+    --------------------------------------------------------------
+
+
+
+
+
+
